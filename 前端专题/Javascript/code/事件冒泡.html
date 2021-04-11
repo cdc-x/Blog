@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="JQuery-3.5.1.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<div id="d1">div
+    <p id="d2">div>p
+        <span id="d3">div>p>span</span>
+    </p>
+</div>
+
+<script>
+    $("#d1").click(function () {
+        alert("div")
+    });
+
+    $("#d2").click(function () {
+        alert("p")
+    });
+
+    $("#d3").click(function (e) {
+        alert("span");
+
+        // 方式一：直接在事件方法内部 return false
+        // return false
+
+        // 方式二：通过内置对象方法阻止冒泡
+        e.stopPropagation()
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*窗口最小宽度为400px，即大于等于400px*/
+        @media screen and (min-width: 1000px ) {
+            body {
+                background-color: red;
+            }
+
+        }
+        /*窗口宽度为200px到400px之间*/
+        @media screen and (min-width: 800px ) and (max-width: 1000px){
+            body {
+                background-color: green;
+            }
+
+        }
+        /*窗口最大宽度为200px，即小于等于200px*/
+        @media screen and (max-width: 800px){
+            body {
+                background-color: blue;
+            }
+
+        }
+    </style>
+</head>
+<body>
+</body>
+</html>

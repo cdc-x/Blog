@@ -1,0 +1,47 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "cases.product",
+    "children" : [ {
+      "name" : "test_product",
+      "children" : [ {
+        "name" : "test_product_case",
+        "uid" : "586ee00c98e8ec79",
+        "parentUid" : "812b2aedda2d26b5bea7d63512a2bf4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614787938437,
+          "stop" : 1614787938437,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "812b2aedda2d26b5bea7d63512a2bf4c"
+    } ],
+    "uid" : "33a297ca53249cbcdf003a173066e4b7"
+  }, {
+    "name" : "cases.user",
+    "children" : [ {
+      "name" : "test_user",
+      "children" : [ {
+        "name" : "test_user_case",
+        "uid" : "37b3d15d5101d2e3",
+        "parentUid" : "dac9a57091efa6055f835712e4f089f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614787938479,
+          "stop" : 1614787938479,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dac9a57091efa6055f835712e4f089f6"
+    } ],
+    "uid" : "b95705b7678f759cb5bb3592e393d9a7"
+  } ]
+}

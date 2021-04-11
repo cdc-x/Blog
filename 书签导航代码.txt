@@ -1,0 +1,124 @@
+{#生成导航书签#}
+<script src="/static/js/jquery-3.4.1.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!--侧栏目录生成代码-->
+<script>
+    $(document).ready(function () {
+        $("h2,h3").each(function (i, item) {
+            //获取标签的名字,h2,还是h3
+            var tag = $(item).get(0).localName;
+            //为该标签设置id属性
+            $(item).attr("id", "wow" + i);
+            //添加一个页内超链接,并设置class选择器
+            $("#category").append('<a class="new' + tag + '" href="#wow' + i + '">' + $(item).text() + '</a></br>');
+            //为每一个标题超链接的class属性设置左边距
+            $(".newh2").css("margin-left", 0);
+            $(".newh3").css("margin-left", 20);
+        });
+        //设置class选择器为.book-body的html内容
+        $(".book-body").html($(".book-body").nextAll())
+    });
+</script>
+
+<style type="text/css">
+    @media (max-width: 1600px) {
+        .book-body {
+            /* padding-left: 200px; */
+            padding-right: 0px;
+        }
+    }
+
+    @media (max-width: 1400px) {
+        .book-body {
+            /* padding-left: 200px; */
+            padding-right: 0px;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .book-body {
+            /* padding-left: 300px; */
+            padding-left: 0px;
+        }
+    }
+
+    @media (max-width: 700px) {
+        .book-body {
+            padding-left: 0px;
+        }
+    }
+
+    @media (min-width: 600px) {
+        #category {
+            /* 绝对定位 */
+            position: fixed;
+            /* left: 20px; */
+            /* 目录显示的位置 */
+            right: 5%;
+            top: 60%;
+            /* 目录栏的高度,这里设置为60%主要是为了不挡住返回顶部和折叠按钮 */
+            height: 325px;
+            width: 255px;
+            /* 开启垂直滚动条 */
+            overflow-y: scroll;
+            /* 开启水平滚动条 */
+            overflow-x: hidden;
+            padding-top: 18px;
+            padding-left: 20px;
+            border: #eee 1px solid;
+            border-radius: 5%;
+        }
+    }
+
+    @media (-webkit-max-device-pixel-ratio: 1) {
+        ::-webkit-scrollbar-track-piece {
+            background-color: #FFF
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: #c2c2c2;
+            background-clip: padding-box;
+            min-height: 28px
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #A0A0A0
+        }
+    }
+
+    #category a, #back-to-top {
+        color: black;
+    }
+
+    #category a:hover, #back-to-top:hover {
+        color: red;
+    }
+
+    .hide {
+        display: none;
+    }
+
+</style>
+<script>
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 100) {
+            $("#category").removeClass("hide");
+            $("#back-to-top").removeClass("hide");
+        } else {
+            $("#category").addClass("hide");
+            $("#back-to-top").addClass("hide");
+        }
+    });
+</script>
+<!--返回顶部-->
+<a href="javascript:scroll(0,0)" style="position:fixed;float:right;right:5%;top:90%" id="back-to-top"
+   class="hide">返回顶部</a>
+<!--文章主体部分-->
+<div class="book-body" id="book_body" style="width:90%;display:block"></div>
+<!--目录栏，设置占用宽度为20%可以根据实际情况设置-->
+<div class="book-summary hide" id="category"></div>

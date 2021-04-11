@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ee80fe9-5988-4ece-96b9-2d580c3a950d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1dcv86OuYCvhN7ZJfllTS1ZnuG9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/DjangoProject/Blog" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\学习笔记\前端专题\css\code" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ee80fe9-5988-4ece-96b9-2d580c3a950d" name="Default Changelist" comment="" />
+      <created>1592737034743</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592737034743</updated>
+      <workItem from="1592737039962" duration="2275000" />
+      <workItem from="1592918221778" duration="6055000" />
+      <workItem from="1593167429763" duration="3378000" />
+      <workItem from="1593525866076" duration="9000" />
+      <workItem from="1597154321486" duration="11918000" />
+      <workItem from="1597244553476" duration="2359000" />
+      <workItem from="1597480049760" duration="3361000" />
+      <workItem from="1602912986154" duration="894000" />
+      <workItem from="1602914750627" duration="7115000" />
+      <workItem from="1602952392264" duration="5970000" />
+      <workItem from="1603015355319" duration="3800000" />
+      <workItem from="1603116951056" duration="3342000" />
+      <workItem from="1607757442342" duration="1887000" />
+      <workItem from="1607864903948" duration="6498000" />
+      <workItem from="1608733500713" duration="6176000" />
+      <workItem from="1608814357004" duration="5604000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="878" y="373" key="FileChooserDialogImpl" timestamp="1608815984875">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state x="878" y="373" key="FileChooserDialogImpl/0.0.2194.1234@0.0.2194.1234" timestamp="1608815984875" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1602918637066">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1602918637066" />
+  </component>
+</project>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .fa{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            position: relative;
+            /*display: table-cell;*/
+            /*vertical-align: middle;*/
+            /*text-align: center;*/
+        }
+
+        /*.ch{*/
+        /*    height: 100px;*/
+        /*    width: 100px;*/
+        /*    background-color: green;*/
+        /*    position: absolute;*/
+        /*    margin: auto;*/
+        /*    top: 0;*/
+        /*    bottom: 0;*/
+        /*    left: 0;*/
+        /*    right: 0;*/
+        /*}*/
+
+        .ch{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            /*display: inline-block;*/
+            position: absolute;
+            /*50%是父级元素的50%，即100px，但实际上需要移动的是50px，所以移动过多*/
+            top: 50%;
+            left: 50%;
+            /*通过 margin 再反向移动弥补多移动的50px*/
+            margin-top: -50px;
+            margin-left: -50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="fa">
+        <div class="ch"></div>
+    </div>
+</body>
+</html>

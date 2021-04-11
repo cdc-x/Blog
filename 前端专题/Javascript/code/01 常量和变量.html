@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // let num = 1;
+    // switch (num) {
+    //     case 0:
+    //         console.log("aaaa");
+    //         break;
+    //     case 1:
+    //         console.log("bbbb");
+    //         break;
+    //     case 2:
+    //         console.log("cccc");
+    //         break;
+    //     case 3:
+    //         console.log("dddd");
+    //         break;
+    //     default:
+    //         console.log("所有条件都没匹配上就执行这一行");
+    //         break;
+    // }
+    // for (let i = 1; i <= 9; i++) {
+    //     let res = "";
+    //     for (let j = 1; j <= i; j++) {
+    //         res += `${j} x ${i} = ${i*j}\t`
+    //     }
+    //     console.log(res)
+    // }
+
+    // let s = [111, 222, 333, 444, 555];
+    // for (let i = 0; i <= s.length; i++) {
+    //     console.log(s[i])
+    // }
+
+    // let num = 1;
+    // while (num < 10) {
+    //     console.log(num);
+    //     num ++;
+    // }
+    // function add(a, b) {
+    //     let res = a + b;
+    //     return res
+    // }
+    //
+    // let addRes = func(1, 2);
+    // console.log(addRes);
+    //
+    // func()
+
+    function func1() {
+        console.log("hello")
+    }
+
+    function func2() {
+        let t = setInterval(func1, 2000);  // 每隔2秒触发一次func1
+
+        function inner() {
+            clearInterval(t)  // 清除周期性计时任务
+        }
+        setTimeout(inner, 6000)  // 6秒后触发inner
+    }
+
+    func2()
+
+</script>
+</body>
+</html>

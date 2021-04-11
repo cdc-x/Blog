@@ -1,0 +1,121 @@
+{
+  "uid" : "586ee00c98e8ec79",
+  "name" : "test_product_case",
+  "fullName" : "cases.product.test_product#test_product_case",
+  "historyId" : "6a0eedece48a3a9f33ebb28748ec3bfa",
+  "time" : {
+    "start" : 1614787938437,
+    "stop" : 1614787938437,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init_product",
+    "time" : {
+      "start" : 1614787938437,
+      "stop" : 1614787938437,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "init_user",
+    "time" : {
+      "start" : 1614787938437,
+      "stop" : 1614787938437,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "init_product::0",
+    "time" : {
+      "start" : 1614787938437,
+      "stop" : 1614787938437,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "init_user::0",
+    "time" : {
+      "start" : 1614787938437,
+      "stop" : 1614787938437,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases.product"
+  }, {
+    "name" : "suite",
+    "value" : "test_product"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-MM62D294"
+  }, {
+    "name" : "thread",
+    "value" : "13732-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.product.test_product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9487d431b51b23d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614787253355,
+        "stop" : 1614787253355,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "586ee00c98e8ec79.json",
+  "parameterValues" : [ ]
+}

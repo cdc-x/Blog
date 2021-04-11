@@ -1,0 +1,111 @@
+{
+  "uid" : "9487d431b51b23d5",
+  "name" : "test_product_case",
+  "fullName" : "cases.product.test_product#test_product_case",
+  "historyId" : "6a0eedece48a3a9f33ebb28748ec3bfa",
+  "time" : {
+    "start" : 1614787253355,
+    "stop" : 1614787253355,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "init_user",
+    "time" : {
+      "start" : 1614787253305,
+      "stop" : 1614787253305,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "init_product",
+    "time" : {
+      "start" : 1614787253305,
+      "stop" : 1614787253305,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "init_user::0",
+    "time" : {
+      "start" : 1614787253355,
+      "stop" : 1614787253355,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "init_product::0",
+    "time" : {
+      "start" : 1614787253355,
+      "stop" : 1614787253355,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases.product"
+  }, {
+    "name" : "suite",
+    "value" : "test_product"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-MM62D294"
+  }, {
+    "name" : "thread",
+    "value" : "4208-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.product.test_product"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9487d431b51b23d5.json",
+  "parameterValues" : [ ]
+}

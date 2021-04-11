@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8fe829d4-7368-4b9f-ad36-15b33d77d0b9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kKYJ8Nvy3OAbTOF92XpUFeHWCf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JQ_demo/jquery" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\学习笔记\前端专题\Javascript\code\JQ_demo\jquery" />
+      <recent name="F:\学习笔记\前端专题\Javascript\code" />
+      <recent name="F:\学习笔记\前端专题\Javascript\code\JS_demo\image" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.demo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fe829d4-7368-4b9f-ad36-15b33d77d0b9" name="Default Changelist" comment="" />
+      <created>1605450677287</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605450677287</updated>
+      <workItem from="1605450682463" duration="1217000" />
+      <workItem from="1605452834295" duration="613000" />
+      <workItem from="1605533071908" duration="2278000" />
+      <workItem from="1605617389165" duration="620000" />
+      <workItem from="1609254748735" duration="1200000" />
+      <workItem from="1609768802107" duration="1360000" />
+      <workItem from="1609852738913" duration="6410000" />
+      <workItem from="1610025241130" duration="664000" />
+      <workItem from="1610029878055" duration="1091000" />
+      <workItem from="1610634042793" duration="1737000" />
+      <workItem from="1610869049127" duration="806000" />
+      <workItem from="1610882925045" duration="4855000" />
+      <workItem from="1610894541096" duration="4589000" />
+      <workItem from="1610976989271" duration="5700000" />
+      <workItem from="1611496063072" duration="3973000" />
+      <workItem from="1611582527913" duration="4031000" />
+      <workItem from="1611756366769" duration="4077000" />
+      <workItem from="1612092349202" duration="11571000" />
+      <workItem from="1612187207747" duration="6298000" />
+      <workItem from="1612196057704" duration="1281000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="878" y="373" key="FileChooserDialogImpl" timestamp="1605617408519">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state x="878" y="373" key="FileChooserDialogImpl/0.0.2194.1234@0.0.2194.1234" timestamp="1605617408519" />
+    <state width="2151" height="338" key="GridCell.Tab.0.bottom" timestamp="1611761254903">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state width="2151" height="338" key="GridCell.Tab.0.bottom/0.0.2194.1234@0.0.2194.1234" timestamp="1611761254903" />
+    <state width="2151" height="338" key="GridCell.Tab.0.center" timestamp="1611761254903">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state width="2151" height="338" key="GridCell.Tab.0.center/0.0.2194.1234@0.0.2194.1234" timestamp="1611761254903" />
+    <state width="2151" height="338" key="GridCell.Tab.0.left" timestamp="1611761254903">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state width="2151" height="338" key="GridCell.Tab.0.left/0.0.2194.1234@0.0.2194.1234" timestamp="1611761254903" />
+    <state width="2151" height="338" key="GridCell.Tab.0.right" timestamp="1611761254903">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state width="2151" height="338" key="GridCell.Tab.0.right/0.0.2194.1234@0.0.2194.1234" timestamp="1611761254903" />
+    <state x="760" y="274" width="672" height="678" key="search.everywhere.popup" timestamp="1612196728932">
+      <screen x="0" y="0" width="2194" height="1234" />
+    </state>
+    <state x="760" y="274" width="672" height="678" key="search.everywhere.popup/0.0.2194.1234@0.0.2194.1234" timestamp="1612196728932" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/code$demo.coverage" NAME="demo Coverage Results" MODIFIED="1611757691706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

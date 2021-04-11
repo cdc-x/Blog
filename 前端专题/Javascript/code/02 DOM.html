@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 等待浏览器窗口加载完毕之后，再执行里面的代码
+        window.onload = function () {
+            let divEle = document.getElementById("d1");
+            divEle.onclick = function () {
+                this.style.color = "red"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="d1">hello</div>
+</body>
+</html>

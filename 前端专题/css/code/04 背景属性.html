@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            height: 1000px;
+            width: 1000px;
+            background-color: red;
+
+            /*方式一：直接写颜色*/
+            /*background-color: red;*/
+
+            /*方式二：十六进制*/
+            /*background-color: #ff0000;*/
+
+            /*方式三：rgb方式*/
+            /*background-color: rgb(255, 0, 0);*/
+
+            /*方式四：rgba方式 最后一位表示透明度，取值范围0-1*/
+            /*background-color: rgba(255, 0, 0, 0.5);*/
+
+            background-image: url("avatar.jpg");
+            background-repeat: no-repeat;
+
+            /*在标签最中间显示图片*/
+            background-position: center;
+
+            /*在标签左上方显示*/
+            background-position: top left;
+
+            /*图片左上角顶点距离窗口上侧200像素，左侧200像素位置显示*/
+            background-position: 200px 200px;
+
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

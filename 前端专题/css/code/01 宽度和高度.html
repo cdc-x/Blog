@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>标签的宽度和高度</title>
+    <style>
+        /*方便贴图演示，将浏览器背景改为黑色*/
+        body {
+            background-color: #000;
+        }
+
+        .d1 {
+            background-color: red;
+            color: white;
+        }
+
+        .d2 {
+            background-color: red;
+            height: 100px;
+            width: 300px;
+            color: white;
+        }
+
+        .s1{
+            background-color: red;
+            height: 1000px;
+            width: 500px;
+            color: white;
+        }
+
+        .s2{
+            /*转换成行内块标签*/
+            display: inline-block;
+            height: 100px;
+            width: 300px;
+            color: white;
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <!--快标签-->
+    <div class="d1">
+        我是div1 使用默认的宽高
+    </div>
+    <hr>
+    <div class="d2">
+        我是div2 宽度300px 高度100px
+    </div>
+    <hr>
+    <span class="s1">
+        我是span标签 我设置了高度和宽度，但是不生效
+    </span>
+    <hr>
+
+    <span class="s2">
+        我是span标签 我转成了行内块标签
+    </span>
+</body>
+</html>
