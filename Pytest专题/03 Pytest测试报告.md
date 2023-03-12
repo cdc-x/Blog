@@ -1,5 +1,7 @@
 # Pytest之生成allure报告
 
+## 一、前戏
+
 在之前我们已经学会使用 `pytest-html` 插件生成 html 格式的测试报告：
 
 ```python
@@ -17,7 +19,9 @@ pytest -vs --html ./report/result.html
 
 ![](/static/img/Pytest专题/50.png) 
 
-很明显报告的效果配不上我们高大上的逼格.......除了 `pytest-html` 插件，`pytest` 还可以和 `allure` 结合，生成更加详细美观的测试报告：
+很明显报告的效果配不上我们高大上的逼格.......除了 `pytest-html` 插件，`pytest` 还可以和 `allure` 结合，生成更加详细美观的测试报告。
+
+## 二、allure的使用
 
 - 第一步，下载第三方插件
 
@@ -62,15 +66,13 @@ python_functions = test
 
 ```python
 allure generate ./tmp -o ./report --clean
+
+# 参数详情
+# ./tmp：存放临时 json 数据的目录
+# -o：表示输出 output
+# ./report：测试报告存放目录
+# --clean：清空 report 目录中原有的数据
 ```
-
-`./tmp`：存放临时 `json` 数据的目录
-
-`-o`：表示输出 `output`
-
-`./report`：测试报告存放目录
-
-`--clean`：清空 `report` 目录中原有的数据
 
 为了方便起见，我们一般会把生成报告的命令直接写在主函数里面：
 
